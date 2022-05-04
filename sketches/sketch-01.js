@@ -28,7 +28,7 @@ const sketch = () => {
         context.rect(x, y, w, h);
         context.stroke();
 
-        if (Math.random() > 0.9){
+        if (Math.random() > 0.77){
           context.beginPath();
           context.rect(x + 8, y + 8, w - 16, h - 16);
           context.strokeStyle = 'rgb(0, ' + Math.floor(255 - 42.5 * Math.random()) + ', ' +
