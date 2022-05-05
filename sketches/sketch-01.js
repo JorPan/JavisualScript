@@ -10,7 +10,7 @@ const sketch = () => {
     context.fillRect(0, 0, width, height);
     context.lineWidth = 8
     // context.strokeStyle = 'black';
-    context.strokeStyle = 'rgb(0, ' + Math.floor(255 - 42.5 * Math.random()) + ', ' +Math.floor(255 - 42.5 * Math.random()) + ')';
+    context.strokeStyle = 'rgb(500, ' + Math.floor(255 - 42.5 * Math.random()) + ', ' +Math.floor(255 - 42.5 * Math.random()) + ')';
 
     let w = 60;
     let h = 60;
@@ -31,7 +31,7 @@ const sketch = () => {
         if (Math.random() > 0.77){
           context.beginPath();
           context.rect(x + 8, y + 8, w - 16, h - 16);
-          context.strokeStyle = 'rgb(0, ' + Math.floor(255 - 42.5 * Math.random()) + ', ' +
+          context.strokeStyle = 'rgb(500, ' + Math.floor(255 - 42.5 * Math.random()) + ', ' +
                             Math.floor(255 - 42.5 * Math.random()) + ')';
           context.stroke();
         }
